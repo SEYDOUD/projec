@@ -1,0 +1,77 @@
+header{
+    background-color: black;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    margin: 20px 20px;
+}
+.input1{
+    border-radius: 20px;
+}
+.input2:hover{
+    transform: scale(1.1);
+}
+form{
+    margin: 20px 0;
+}
+header a:hover{
+    color: gray;
+    transform:scale(1.1);
+    
+}
+.les2images{
+    margin: 200px;
+}
+.les2images img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+@media screen and (max-width: 900px){
+    .input2{
+        margin: 5px 45px;
+    }
+    .les2images img{
+        width: 100%;
+    }
+}
+body{
+    margin: 0;
+    background-image: linear-gradient(to bottom ,#000,#0008),url("success-2081168_1280.jpg") ;
+    animation: slide 20s infinite;
+}
+@keyframes slide{
+    0%{
+        background-image: linear-gradient(to bottom ,#000,#0008),url("black-1271449_1280.png");
+    }
+    20%{
+        background-image:linear-gradient(to bottom,#000,#0008), url("realtor-6019792_1280.png");
+    }
+    40%{
+        background-image: linear-gradient(to bottom ,#000,#0008),url("success-2081168_1280.jpg");
+    }
+    60%{
+        background-image:  linear-gradient(to bottom ,#000,#0008),url("woman-5750063_1280.png");
+    }
+    80%{
+        background-image:  linear-gradient(to bottom ,#000,#0008),url("e-commerce-1606962_1280.png");
+    }
+    100%{
+        background-image:  linear-gradient(to bottom ,#000,#0008),url("market-5000694_1280.png");
+    }
+}
+img{
+    margin: 0 40px;
+}
+.acheter{
+    border-radius: 60%;
+    background-color: white;
+}
+.logo{
+    background-color: white;
+    border-radius: 70%;
+    margin: -10px 20px ;
+}
